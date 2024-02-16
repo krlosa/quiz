@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/reset.css">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="shortcut icon" type="imagex/png" href="./assets/sport_ball_football_icon_175712.png">
+
+    <title>Quiz</title>
+</head>
+<body>
+    <header id="cabecalho">
+        <h1 clas="titulo">Teste sua sabedoria</h1>
+    </header>
+
+    <div id="quiz"></div>
+    <template>
+        <div class="quizAlternativa">
+        
+            <h3 id="pergunta">Pergunta 01</h3>
+            <dl class="alternativas">
+                <dt class="questoes">
+                    <input id="marcado" type="radio" name="alternativa" value="0">
+                    <label for="marcado" class="marcados"><span>Alternativa A.</span></label>
+                </dt>
+            </dl>
+        </div>
+    </template>
+    <div id="resultado">
+
+        <input type="button" id="btn" value="Pontuação">
+
+    </div>
+</body>
+<script src="./script/perguntas.js"></script>
+</html>
